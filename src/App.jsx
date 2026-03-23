@@ -11,14 +11,16 @@ function App() {
   useGSAP (() => {
     gsap.to (".circle" , {
       x:circle,
+      // y: circle,
       duration: 0.5
-    }, [circle])
-  })
+    })
+  }, [circle])
 
   return (
     <>
       <main>
-        <button onClick={() => { setCircle(random);
+        <button onClick={() => { setCircle(random); console.log(circle);
+        
         }}>Animate</button>
         <div className="circle"></div>
       </main>
