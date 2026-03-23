@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to right bottom ,rgb(224, 91, 117) , crimson);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  background: linear-gradient(to right bottom , lightblue , cadetblue);
+}
