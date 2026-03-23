@@ -19,20 +19,22 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
-.container {
-  border: 2px solid white;
-  padding: 20px;
-  border-radius: 20px;
+button{
+padding: 20px 100px;
+border-radius: 50px;
+background:
+linear-gradient(rgb(45, 218, 129), rgb(7, 174, 80));
+border: none;
+color: #000;
+font-size: 25px;
+font-weight: 600;
 }
 
-.box {
-  height: 200px;
-  width: 200px;
-  background: linear-gradient(to right bottom ,rgb(224, 91, 117) , crimson);
-  border-radius: 10px;
-  margin: 20px;
+button:active {
+  scale: 0.9;
 }
 
 .circle {
